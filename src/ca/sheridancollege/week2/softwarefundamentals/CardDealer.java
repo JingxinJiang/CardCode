@@ -17,5 +17,6 @@ public class CardDealer
         nineClubs.setSuit("diamonds");
         Card newClubs = new Card("cat",8);
         newClubs.setSuit("Spades");
+        System.out.println("new clubs"+newClubs.getSuit()); 
     }
 }
